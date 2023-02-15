@@ -1,0 +1,41 @@
+:root {
+  --main-color: #c0392b;
+  --body-bg: #181616;
+  --box-bg: #221f1f;
+  --text-color: #fff;
+
+  --nav-height: 60px;
+}
+
+body {
+  background-color: var(--body-bg);
+}
+.jumbotron-fluid {
+  background-color: var(--body-bg);
+  color: var(--text-color);
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-bottom: 2rem;
+}
+
+.jumbotron-fluid h5 {
+  color: var(--text-color);
+}
+.container video {
+  margin-left: 2%;
+}
+
+.page-footer {
+  background-color: black;
+  color: white;
+}
+
+.col1 {
+  float: left;
+  width: 30%;
+}
+
+.col2 {
+  float: left;
+  width: 70%;
+}
